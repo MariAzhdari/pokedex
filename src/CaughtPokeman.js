@@ -2,6 +2,6 @@
 
  const CaughtPokemon = () => {
   const date = new Date().toLocaleDateString();
-  return <p>caught 0 pokemin on {date}</p>;
+  return <p>caught 0 Pokemin on {date}</p>;
 };
 export default CaughtPokemon;
