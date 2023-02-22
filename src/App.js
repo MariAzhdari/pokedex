@@ -8,9 +8,9 @@ import CaughtPokemon from "./CaughtPokeman";
 function App() {
   return (
     <div>
-      <Logo />
-      <BestPokemon />
-      <CaughtPokemon/>
+      <Logo appName ="Mari"/>
+      <BestPokemon  abilities= {["Anticipation", "Adaptability", "Run-Away"]}/>
+      <CaughtPokemon />
     </div>
   );
 }
