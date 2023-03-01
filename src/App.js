@@ -7,10 +7,13 @@ import CaughtPokemon from "./CaughtPokeman";
 const abilities =["Anticipation", "Adaptability", "Run-Away"];
 
 function App() {
+    const logWhenClicked = () => {
+      console.log("it doesn't matter what the message is");
+    };
   return (
     <div>
-      <Logo appName ="Mari"/>
-      <BestPokemon  abilities= {abilities}/>
+      <Logo appName="Mari" handleClick={logWhenClicked} />
+      <BestPokemon abilities={abilities} />
       <CaughtPokemon />
     </div>
   );
