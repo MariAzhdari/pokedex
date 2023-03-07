@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import BestPokemon from "./BestPokemon";
 import Logo from "./Logo";
-import CaughtPokemon from "./CaughtPokeman";
+import CaughtPokemon from "./CaughtPokemon";
+import PokemonMoves from "./PokemonMoves";
 
 const abilities =["Anticipation", "Adaptability", "Run-Away"];
 
@@ -15,6 +16,7 @@ function App() {
       <Logo appName="Mari" handleClick={logWhenClicked} />
       <BestPokemon abilities={abilities} />
       <CaughtPokemon />
+      <PokemonMoves />
     </div>
   );
 }
